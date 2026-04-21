@@ -74,28 +74,30 @@
            Je souhaite construire un projet professionnel dans le digital, en mettant à profit ma motivation et mon envie d’apprendre.
           </p>
 
-          file:///C:/Users/Utilisateur/Downloads/CV_2025-04-17_Aurélie_ABERE.pdf-4.pdf
-          <a href="#" class="btn btn-primary" download>
+          <a href="CV_Aurélie_ABERE.pdf" class="btn btn-primary" download>
+
             Télécharger mon CV
+
           </a>
+
         </div>   
 
          <!-- Quelques stats ou faits — modifiez les chiffres et labels -->
         <div class="about-stats">
           <div class="stat-card">
-            <span class="stat-number">6</span>
-            <span class="stat-label">3 Mois de formation</span>
+            <span class="stat-number">3</span>
+            <span class="stat-label">Mois de formation</span>
           </div>
           <div class="stat-card">
-            <span class="stat-number">3</span>
-            <span class="stat-label">Projets réalisés PowerPoint Présentation métier Product Owner</span>
+            <span class="stat-number">1</span>
+            <span class="stat-label">Projet réalisé : PowerPoint Présentation métier Product Owner</span>
           </div>
           <div class="stat-card">
             <span class="stat-number">100%</span>
             <span class="stat-label">Motivé</span>
           </div>
           <div class="stat-card">
-            <span class="stat-number">∞</span>
+            <span class="stat-number">80%</span>
             <span class="stat-label">Curiosité</span>
           </div>
         </div>
@@ -132,7 +134,7 @@
           <div class="skill-item">
             <div class="skill-header">
               <span class="skill-name">CSS</span>
-              <span class="skill-percent">10%</span>
+              <span class="skill-percent">0%</span>
             </div>
             <div class="skill-bar">
               <div class="skill-progress" data-level="60"></div>
@@ -142,7 +144,7 @@
           <div class="skill-item">
             <div class="skill-header">
               <span class="skill-name">JavaScript</span>
-              <span class="skill-percent">10%</span>
+              <span class="skill-percent">0%</span>
             </div>
             <div class="skill-bar">
               <div class="skill-progress" data-level="40"></div>
@@ -158,7 +160,7 @@
           <div class="skill-item">
             <div class="skill-header">
               <span class="skill-name">Windows / Linux</span>
-              <span class="skill-percent">70%</span>
+              <span class="skill-percent">30%</span>
             </div>
             <div class="skill-bar">
               <div class="skill-progress" data-level="70"></div>
@@ -168,7 +170,7 @@
           <div class="skill-item">
             <div class="skill-header">
               <span class="skill-name">Réseaux TCP/IP</span>
-              <span class="skill-percent">40%</span>
+              <span class="skill-percent">10%</span>
             </div>
             <div class="skill-bar">
               <div class="skill-progress" data-level="55"></div>
@@ -178,18 +180,151 @@
           <div class="skill-item">
             <div class="skill-header">
               <span class="skill-name">VS Code</span>
-              <span class="skill-percent">30%</span>
+              <span class="skill-percent">15%</span>
             </div>
             <div class="skill-bar">
               <div class="skill-progress" data-level="80"></div>
             </div>
           </div>
 
-        </div><!-- fin .skill-category -->
+        </div>
 
-      </div><!-- fin .skills-grid -->
+      </div>
+  </section>
+<section class="contact" id="contact">
+    <div class="container">
+
+      <h2 class="section-title">Me <span class="highlight">contacter</span></h2>
+      <p class="section-subtitle">
+        Une question ? Une opportunité ? N'hésitez pas !
+      </p>
+
+      <div class="contact-grid">
+
+                <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">✉</div>
+            <div>
+              <h4>Email</h4>
+                          <p>lilie.abere@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h4>Localisation</h4>
+                          <p>Plouvien, France</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">💼</div>
+            <div>
+              <h4>LinkedIn</h4>
+              www.linkedin.com/in/aurélie-abere-225080362
+              <p><a href="https://www.linkedin.com/in/aur%C3%A9lie-abere-225080362/">linkedin.com/in/aur%C3%A9lie-abere-225080362</a></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulaire -->
+        <!--
+        NOTE : on n'utilise pas <form action="..."> car on valide en JS.
+        Pour un vrai envoi d'email, inscrivez-vous sur formspree.io
+        et remplacez action="#" par votre URL Formspree.
+        -->
+        <form class="contact-form" id="contact-form" novalidate>
+
+          <div class="form-group">
+            <label for="name">https://formspree.io/f/xojynrdd</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Prénom Nom"
+              required
+            />
+                        <span class="error-message" id="name-error"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">lilie.abere@gmail.com</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="vous@exemple.com"
+              required
+            />
+            <span class="error-message" id="email-error"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Sujet</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="Objet de votre message"
+              required
+            />
+            <span class="error-message" id="subject-error"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Votre message ici..."
+              required
+            ></textarea>
+            <span class="error-message" id="message-error"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full">
+            Envoyer le message
+          </button>
+
+                    <div class="success-message" id="success-message">
+            ✅ Message envoyé ! Je vous répondrai sous 48h.
+          </div>
+
+        </form>
+
+      </div>
     </div>
   </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       FOOTER — bas de page
+  ═══════════════════════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <p>
+        <!-- Remplacez par votre prénom et l'année en cours -->
+        © 2026 <span class="highlight">[Votre Prénom Nom]</span>
+        — Portfolio réalisé en HTML/CSS/JS
+      </p>
+      <!-- Liens vers vos profils — ajoutez ou supprimez -->
+      <div class="footer-links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Email</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       BOUTON "RETOUR EN HAUT"
+       Apparaît quand on scrolle — géré en JS
+  ═══════════════════════════════════════════════════════════════ -->
+  <button class="back-to-top" id="back-to-top" aria-label="Retour en haut">
+    ↑
+  </button>
+
 
 
 </html>
